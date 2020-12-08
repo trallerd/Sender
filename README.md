@@ -2,7 +2,7 @@
 
 Na mesma Activity, o usuário pode escrever um texto qualquer OU escolher uma imagem da galeria do celular e compartilhar. E escolhe dar permissão ao app acessar os contatos.
 
-Ao compartilhar, todos os aplicativos que sabem receber textos ou imagens compartilhadas aparecem, inclusive [Reciver](https://github.com/trallerd/Reciver).
+Ao compartilhar, todos os aplicativos que sabem receber textos ou imagens compartilhadas aparecem, inclusive [Receiver](https://github.com/trallerd/Receiver).
 
 - Foram ultilizadas [Intent](https://developer.android.com/reference/android/content/Intent?hl=en)
 - [Dexter](https://github.com/Karumi/Dexter) para permissões
