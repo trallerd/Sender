@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sender</string>
+    <string name="text">Put your text here!</string>
+    <string name="send_button">Send</string>
+    <string name="choose_pick">Choose a Pick From gallery</string>
+    <string name="intput_text_error">Please! Write something to send!</string>
+    <string name="pick_choose">Looking for apps!</string>
+    <string name="granted">Permission Granted</string>
+    <string name="contact_permission">Contact Permission</string>
+    <string name="denied">Permission denied</string>
+    <string name="permanently">Denied permanently</string>
+</resources>

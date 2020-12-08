@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_margin="20sp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="@+id/chooseGalleryButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/chooseGalleryButton"
+        app:layout_constraintTop_toBottomOf="@+id/chooseGalleryButton">
+
+        <TextView
+            android:id="@+id/txtPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginBottom="41dp"
+            android:gravity="end"
+            android:text="@string/contact_permission"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonPrmission"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="25dp"
+            android:text="@string/contact_permission" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#B5000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="20sp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="@+id/txtSend"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sender" />
+
+    <Button
+        android:id="@+id/sendTextButton"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/send_button"
+        app:layout_constraintEnd_toEndOf="@+id/txtSend"
+        app:layout_constraintTop_toBottomOf="@+id/txtSend" />
+
+    <Button
+        android:id="@+id/chooseGalleryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/choose_pick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendTextButton"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <EditText
+        android:id="@+id/txtSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:autofillHints=""
+        android:hint="@string/text"
+        android:inputType="textPersonName"
+        android:textColor="#9C000000"
+        android:textColorHint="#9C000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sender</string>
+    <string name="text">" Escribe tu texto aquí !!"</string>
+    <string name="send_button">Enviar</string>
+    <string name="choose_pick">Elige una foto de la galería</string>
+    <string name="intput_text_error">"¡Por favor! ¡Escribe algo para enviar! "</string>
+    <string name="pick_choose">"Buscando aplicaciones! "</string>
+    <string name="contact_permission">"Permiso contactos "</string>
+    <string name="granted">"Permiso concedido "</string>
+    <string name="denied">"Permiso denegado "</string>
+    <string name="permanently">"Denegado permanentemente "</string>
+</resources>
